@@ -103,6 +103,18 @@ priorityQueue.enqueue(1)
 const empty2 = priorityQueue.isEmpty() // false
 ```
 
+### `toArray`(): `any`
+
+以数组形式返回
+
+**returns** `Array`: 数组
+
+```javascript
+// priorityQueue: [12, 3, 5], comparator: default
+
+const arr=priorityQueue.toArray() // [12,3,5]
+```
+
 [Function]: https://mdn.io/function
 [Number]: https://mdn.io/number
 [Boolean]: https://mdn.io/boolean
