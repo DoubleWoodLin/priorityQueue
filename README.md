@@ -103,7 +103,7 @@ priorityQueue.enqueue(1)
 const empty2 = priorityQueue.isEmpty() // false
 ```
 
-### `toArray`(): `any`
+### `toArray`(): `Array`
 
 以数组形式返回
 
