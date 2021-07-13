@@ -126,4 +126,13 @@ module.exports = class PriorityQueue {
         }
         return this._queue[0];
     }
+
+    /**
+     * 清空队列
+     * @author Jarvey Linger
+     * @date 2021-07-13
+     */
+    clear = () => {
+        this._queue.length = 0;
+    }
 }
