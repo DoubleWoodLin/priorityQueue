@@ -115,6 +115,16 @@ const empty2 = priorityQueue.isEmpty() // false
 const arr=priorityQueue.toArray() // [12,3,5]
 ```
 
+### `clear`(): `any`
+
+清空队列。
+
+```javascript
+// priorityQueue: [12, 3, 5], comparator: default
+
+priorityQueue.claer() // []
+```
+
 [Function]: https://mdn.io/function
 [Number]: https://mdn.io/number
 [Boolean]: https://mdn.io/boolean
